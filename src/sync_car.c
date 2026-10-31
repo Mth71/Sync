@@ -1,6 +1,14 @@
 #include "sync_car.h"
 
 void station_init(struct station *station){
+    pthread_mutex_init(&station->lock, NULL);
+    pthread_cond_init(&station->carAvailable, NULL);
+    pthread_cond_init(&station->allBoarded, NULL);
+
+    station->waitingPassengers = 0;
+    station->freeSeats = 0;
+    station->boardingPassengers = 0;
+
 
 }
 
