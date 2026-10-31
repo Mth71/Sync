@@ -1,5 +1,6 @@
 # executável gerado pelo make
 sync_car
+test_invalid
 
 # arquivos objeto, caso o Makefile gere .o
 *.o
