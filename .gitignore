@@ -1,0 +1,11 @@
+# executável gerado pelo make
+sync_car
+
+# arquivos objeto, caso o Makefile gere .o
+*.o
+
+# pacote de entrega
+*.tar
+
+# log de evidências (vai só no .tar)
+evidencias.log
