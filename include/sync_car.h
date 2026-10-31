@@ -10,7 +10,7 @@ struct station{
     pthread_cond_t allBoarded; // onde o carro espera o embarque terminar
     int waitingPassengers; //esperando passageiros
     int freeSeats; // assentos livres
-    int boardingPassengers; // passageiros liberados quye ainda nao chamaram on_board
+    int boardingPassengers; // passageiros liberados que ainda nao chamaram on_board
 };
 
 void station_init(struct station *station);
