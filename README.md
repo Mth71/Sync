@@ -4,7 +4,7 @@ Implementação em C, com pthreads, das funções de sincronização para o emba
 
 ## Sistema operacional
 
-Desenvolvido e testado no **Windows 11**, compilando e executando no **WSL** (Ubuntu <versão>), com `gcc` e `make` (pacote `build-essential`).
+Desenvolvido e testado no **Windows 11**, compilando e executando no **WSL** (Ubuntu <Ubuntu 26.04.1 LTS>), com `gcc` e `make` (pacote `build-essential`).
 
 ## Arquivos
 
